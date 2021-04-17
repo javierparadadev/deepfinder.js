@@ -1,5 +1,5 @@
-import { deepGet } from './lib/deep-get'
+const { deepGet } = require('./lib/deep-get')
 
 module.exports = {
-    deepGet
+    deepGet,
 }
