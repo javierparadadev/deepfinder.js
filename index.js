@@ -1,5 +1,5 @@
-const { deepGet } = require('./lib/deep-get')
+const { deepFind } = require('./lib/deep-find')
 
 module.exports = {
-    deepGet,
+    deepFind,
 }

@@ -1,5 +1,5 @@
 {
-  "name": "deepgetter",
+  "name": "deepfinder",
   "version": "0.0.1",
   "description": "Search attributes easily within structures of type dictionary, list and embedded substructures.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "find ./test -name '*.spec.js' | xargs mocha -R spec",
     "build": "webpack"
   },
-  "repository": "https://github.com/parada3desu/deepgetter.js.git",
+  "repository": "https://github.com/parada3desu/deepfinder.js.git",
   "author": "Javier Parada",
   "license": "MIT",
   "dependencies": {},

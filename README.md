@@ -1,1 +1,1 @@
-# deepgetter.js
+# Deep finder
