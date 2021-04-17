@@ -7,6 +7,10 @@
     "test": "find ./test -name '*.spec.js' | xargs mocha -R spec",
     "build": "webpack"
   },
+  "repository": "https://github.com/parada3desu/deepgetter.js.git",
+  "author": "Javier Parada",
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.3.2",
