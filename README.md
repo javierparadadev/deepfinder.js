@@ -24,11 +24,11 @@ Search attributes easily within structures of type dictionary, list and embedded
 #### Basic sample
 
 ```javascript
-  const { deepFind } = require("deepfinder")
+  const { deepFind } = require('deepfinder')
   const user = {
     links: {
         github: 'github-user-name',
-        twitter: 'twitter-user-name'
+        twitter: 'twitter-user-name',
     },
   }
   console.log(deepFind(user, 'links.github'))
@@ -38,4 +38,4 @@ Search attributes easily within structures of type dictionary, list and embedded
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]([LICENSE.md](https://github.com/parada3desu/deepfinder.js/blob/master/LICENSE)) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/parada3desu/deepfinder.js/blob/master/LICENSE) file for details.
