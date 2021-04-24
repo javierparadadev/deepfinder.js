@@ -13,29 +13,67 @@ Search attributes easily within structures of type dictionary, list and embedded
   npm install deepfinder
 ```
 
-### Run tests
-
-```Shell
-  make test
-```
-
-### Example usage
+### Example usages
 
 #### Basic sample
 
 ```javascript
   const { deepFind } = require('deepfinder')
   const user = {
+    name: 'ash',
     links: {
-        github: 'github-user-name',
-        twitter: 'twitter-user-name',
+        pokehub: '@ash',
     },
   }
-  console.log(deepFind(user, 'links.github'))
-  // output: 'github-user-name'
+  console.log(deepFind(user, 'links.pokehub'))
+  // output: '@ash'
 ```
 
+#### List basic sample
 
-## License
+```javascript
+  const { deepFind } = require('deepfinder')
+  const user = {
+    name: 'ash',
+    pokemons: [{
+        name: 'pikachu',
+    },{
+        name: 'charmander',
+    }],
+  }
+  console.log(deepFind(user, 'pokemons.0.name'))
+  // output: 'pikachu'
+```
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/parada3desu/deepfinder.js/blob/master/LICENSE) file for details.
+#### List all result sample
+
+```javascript
+  const { deepFind } = require('deepfinder')
+  const user = {
+    name: 'ash',
+    pokemons: [{
+        name: 'pikachu',
+    },{
+        name: 'charmander',
+    }],
+  }
+  console.log(deepFind(user, 'pokemons.*.name'))
+  // output: '['pikachu', 'charmander]'
+```
+
+#### List and not null result sample
+
+```javascript
+  const { deepFind } = require('deepfinder')
+  const user = {
+    name: 'ash',
+    pokemons: [{
+        name: 'pikachu',
+    },{
+        name: 'charmander',
+        ball: 'superball'
+    }],
+  }
+  console.log(deepFind(user, 'pokemons.?.ball'))
+  // output: '['superball']'
+```
