@@ -2,7 +2,7 @@ const { expect } = require('chai')
 
 const { deepFind } = require('../../index')
 
-describe("unit.deepFind.lvls", () => {
+describe("unit.deepFind.dicts", () => {
     it("Should return value with 0 depth lvls", () => {
         const data = {
             value: 39,
