@@ -1,19 +1,21 @@
 # Deep finder
 
-![GitHub](https://img.shields.io/github/license/parada3desu/deepfinder.js)
-![npm](https://img.shields.io/npm/v/deepfinder)
-![](https://github.com/parada3desu/deepfinder.js/workflows/tests/badge.svg)
+[![GitHub](https://img.shields.io/github/license/parada3desu/deepfinder.js)](https://github.com/parada3desu/deepfinder.js/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/deepfinder)](https://www.npmjs.com/package/deepfinder)
+[![GA](https://github.com/parada3desu/deepfinder.js/workflows/tests/badge.svg)](https://github.com/parada3desu/deepfinder.js/actions/workflows/test-and-build.yml)
 
 
 Search attributes easily within structures of type dictionary, list and embedded substructures with simple format 'dict.users.0.name'.
 
 ## Getting Started
 
+### Installation
+
 ```Shell
   npm install deepfinder
 ```
 
-### Example usages
+### Usage
 
 #### Basic sample
 
@@ -29,7 +31,7 @@ Search attributes easily within structures of type dictionary, list and embedded
   // output: '@ash'
 ```
 
-#### List basic sample
+#### List sample
 
 ```javascript
   const { deepFind } = require('deepfinder')
@@ -58,7 +60,7 @@ Search attributes easily within structures of type dictionary, list and embedded
     }],
   }
   console.log(deepFind(user, 'pokemons.*.name'))
-  // output: '['pikachu', 'charmander]'
+  // output: ['pikachu', 'charmander']
 ```
 
 #### List and not null result sample
@@ -75,5 +77,5 @@ Search attributes easily within structures of type dictionary, list and embedded
     }],
   }
   console.log(deepFind(user, 'pokemons.?.ball'))
-  // output: '['superball']'
+  // output: ['superball']
 ```
