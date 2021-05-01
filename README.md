@@ -63,7 +63,7 @@ Search attributes easily within structures of type dictionary, list and embedded
   // output: ['pikachu', 'charmander']
 ```
 
-#### List and not null result sample
+#### First not null path in list
 
 ```javascript
   const { deepFind } = require('deepfinder')
@@ -77,5 +77,5 @@ Search attributes easily within structures of type dictionary, list and embedded
     }],
   }
   console.log(deepFind(user, 'pokemons.?.ball'))
-  // output: ['superball']
+  // output: 'superball'
 ```
