@@ -79,3 +79,17 @@ Search attributes easily within structures of type dictionary, list and embedded
   console.log(deepFind(user, 'pokemons.?.ball'))
   // output: 'superball'
 ```
+
+### Use as js object native function
+
+> **Disclaimer**: use this useful, optional and dangerous practice at your own risk.
+
+```javascript
+  const DeepFinder = require('deepfinder')
+  DeepFinder.nativify()
+
+  const pokemon = { name: 'mew' }
+  console.log(pokemon.deepFind('name'))
+ 
+  // output: 'mew'
+```
