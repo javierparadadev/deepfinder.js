@@ -1,6 +1,6 @@
 {
   "name": "deepfinder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Search attributes easily within structures of type dictionary, list and embedded substructures.",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,10 @@
   "repository": "https://github.com/parada3desu/deepfinder.js.git",
   "author": "Javier Parada",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.3.2",
-    "webpack": "^5.33.2",
-    "webpack-cli": "^4.6.0"
+    "mocha": "^9.0.2",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
   }
 }
