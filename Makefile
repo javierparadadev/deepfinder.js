@@ -12,3 +12,8 @@ deps:
 .PHONY: test
 test:
 	npm run-script test
+
+# Run tests and coverage
+.PHONY: cov
+cov:
+	npm run-script cov
