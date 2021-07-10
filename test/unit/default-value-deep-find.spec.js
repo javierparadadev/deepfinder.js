@@ -11,7 +11,7 @@ describe("unit.deepFind.default", () => {
 
     it("Should return default value if result is null", () => {
         const sample = { value: null }
-        const result = deepFind(sample, 'potato', { default_return: 'tomato' })
+        const result = deepFind(sample, 'value', { default_return: 'tomato' })
         expect(result).to.be.deep.equals('tomato')
     })
 
