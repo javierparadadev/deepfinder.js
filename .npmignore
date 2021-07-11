@@ -110,3 +110,6 @@ dist
 .gitignore
 .github/**
 Makefile
+webpack.config.js
+test/**
+
