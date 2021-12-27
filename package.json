@@ -1,6 +1,6 @@
 {
   "name": "deepfinder",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Search attributes easily within structures of type dictionary, list and embedded substructures.",
   "main": "index.js",
   "scripts": {
