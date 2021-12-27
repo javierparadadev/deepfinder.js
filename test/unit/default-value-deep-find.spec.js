@@ -62,4 +62,16 @@ describe("unit.deepFind.default", () => {
         const result = deepFind(sample, 'value', { defaultReturn: 'potato' })
         expect(result).to.be.deep.equals(NaN)
     })
+
+    it("Should return empty list if does not match", () => {
+        const sample = [{ any: 'any' }]
+        const result = deepFind(sample, '*.some', { defaultReturn: 'default' })
+        expect(result).to.be.deep.equals([])
+    })
+
+    it("Should return default if attribute is not present", () => {
+        const sample = [{ any: 'any' }]
+        const result = deepFind(sample, '?.some', { defaultReturn: 'default' })
+        expect(result).to.be.deep.equals('default')
+    })
 })
