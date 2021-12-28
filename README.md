@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/parada3desu/deepfinder.js)](https://github.com/parada3desu/deepfinder.js/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/deepfinder)](https://www.npmjs.com/package/deepfinder)
-[![npm](https://img.shields.io/npm/dy/deepfinder)](https://www.npmjs.com/package/deepfinder)
+[![npm](https://img.shields.io/npm/dt/deepfinder)](https://www.npmjs.com/package/deepfinder)
 [![GA](https://github.com/parada3desu/deepfinder.js/workflows/tests/badge.svg)](https://github.com/parada3desu/deepfinder.js/actions/workflows/test-and-build.yml)
 
 
