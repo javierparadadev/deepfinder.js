@@ -63,9 +63,15 @@ describe("unit.deepFind.default", () => {
         expect(result).to.be.deep.equals(NaN)
     })
 
-    it("Should return empty list if does not match", () => {
+    it("Should return list with undefined if does not match", () => {
         const sample = [{ any: 'any' }]
         const result = deepFind(sample, '*.some', { defaultReturn: 'default' })
+        expect(result).to.be.deep.equals([undefined])
+    })
+
+    it("Should return empty list if does not match", () => {
+        const sample = [{ any: 'any' }]
+        const result = deepFind(sample, '*?.some', { defaultReturn: 'default' })
         expect(result).to.be.deep.equals([])
     })
 
