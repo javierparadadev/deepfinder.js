@@ -1,6 +1,6 @@
 {
   "name": "deepfinder",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Search attributes easily within structures of type dictionary, list and embedded substructures.",
   "main": "index.js",
   "scripts": {
@@ -33,14 +33,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thekichune/deepfinder.js.git"
+    "url": "git+https://github.com/jparadadev/deepfinder.js.git"
   },
   "author": "Javier Parada",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thekichune/deepfinder.js/issues"
+    "url": "https://github.com/jparadadev/deepfinder.js/issues"
   },
-  "homepage": "https://github.com/thekichune/deepfinder.js#readme",
+  "homepage": "https://github.com/jparadadev/deepfinder.js#readme",
   "directories": {
     "lib": "lib",
     "test": "test"

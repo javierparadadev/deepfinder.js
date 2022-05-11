@@ -1,9 +1,9 @@
 # Deep finder
 
-[![GitHub](https://img.shields.io/github/license/thekichune/deepfinder.js)](https://github.com/thekichune/deepfinder.js/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/jparadadev/deepfinder.js)](https://github.com/jparadadev/deepfinder.js/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/deepfinder)](https://www.npmjs.com/package/deepfinder)
 [![npm](https://img.shields.io/npm/dt/deepfinder)](https://www.npmjs.com/package/deepfinder)
-[![GA](https://github.com/thekichune/deepfinder.js/workflows/tests/badge.svg)](https://github.com/thekichune/deepfinder.js/actions/workflows/test-and-build.yml)
+[![GA](https://github.com/jparadadev/deepfinder.js/workflows/tests/badge.svg)](https://github.com/jparadadev/deepfinder.js/actions/workflows/test-and-build.yml)
 
 
 Search attributes easily within structures of type dictionary, list and embedded substructures with simple format 'dict.users.0.name'.
