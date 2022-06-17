@@ -1,4 +1,4 @@
-# Deep finder
+# Deepfinder
 
 [![GitHub](https://img.shields.io/github/license/jparadadev/deepfinder.js)](https://github.com/jparadadev/deepfinder.js/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/deepfinder)](https://www.npmjs.com/package/deepfinder)
